@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping\Index;
  * @ORM\Entity(repositoryClass=TestMessageRepository::class)
  * @ORM\Table(options={"comment"="测试Message"}, indexes={@Index(name="search_idx", columns={"number"})})
  */
-class TestMessage implements \JsonSerializable
+class Test implements \JsonSerializable
 {
     /**
      * @ORM\Id
